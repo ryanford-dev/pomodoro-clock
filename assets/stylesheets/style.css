@@ -1,0 +1,78 @@
+html {
+	height:100vh;
+	width:100vw;
+}
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+	font-family:'Roboto', sans-serif;
+	color:#eee;
+	background-color:#212121;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+}
+.container {
+	padding:20px 0;
+	background:#000;
+	border:1px solid #424242;
+	border-radius:6px;
+	min-width:650px;
+	display:flex;
+	flex-direction:column;
+	overflow:hidden;
+}
+.title {
+	margin-top:-20px;
+	background:#006064;
+	text-align:center;
+}
+.display {
+	display:flex;
+	flex-direction:column;
+}
+.settings {
+	display:flex;
+	justify-content:space-around;
+}
+.controls {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.controls button {
+	background:none;
+	color:#eee;
+	padding:0;
+	margin:0;
+	border:none;
+	cursor:pointer;
+}
+h1, h3 {
+	text-align:center;
+}
+.active {
+	color:#4dd0e1;
+	text-shadow:0 0 10px #b2ebf1;
+}
+.error {
+	color:#b71c1c;
+	text-shadow:0 0 10px #ff1744
+}
+.thanks {
+	min-width:650px;
+	margin:10px 20px 0 0;
+	text-align:right;
+	font-size:75%;
+}
+a {
+	color:#eee;
+}
+/* Material Icons */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
