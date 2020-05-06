@@ -1,4 +1,3 @@
 # Pomodoro Clock
-### Simple but effective
 
-See the live demo here https://ryanford-frontend.github.io/pomodoro-clock/
+See the live demo here https://ryanford-dev.github.io/pomodoro-clock/
